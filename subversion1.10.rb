@@ -65,7 +65,7 @@ class Subversion110 < Formula
     end
   end
   
-  if build.with? "with-unicode-path"
+  if build.with? "unicode-path"
     patch :p0 do
       url "https://raw.githubusercontent.com/yojiando/homebrew-subversion/master/patch-osx_unicode_precomp.diff"
       sha256 "726160c922e92bb76c8ef3bc345bc6ae02aea79d30eb78be069d372b257285cd"
