@@ -118,7 +118,7 @@ class Subversion19 < Formula
     ]
 
     args << "--enable-javahl" << "--without-jikes" if build.with? "java"
-    args << "--without-gpg-agent" if build.without? "gpg-agent"
+    args << "--without-gpg-agent" if build.without? "gnupg"
 
     if build.with? "ruby"
       args << "--with-ruby-sitedir=#{lib}/ruby"
