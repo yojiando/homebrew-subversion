@@ -115,7 +115,7 @@ class Subversion110 < Formula
     ]
 
     args << "--enable-javahl" << "--without-jikes" if build.with? "java"
-    args << "--without-gpg-agent" if build.without? "gpg-agent"
+    args << "--without-gpg-agent" if build.without? "gnupg"
     args << "--disable-nls" if build.without? "gettext"
 
     if build.with? "ruby"
