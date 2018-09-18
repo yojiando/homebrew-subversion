@@ -42,7 +42,7 @@ class Subversion19 < Formula
   depends_on "openssl"
 
   # Other optional dependencies
-  depends_on "gpg-agent" => :optional
+  depends_on "gnupg" => :optional
   depends_on :java => :optional
 
   resource "serf" do
