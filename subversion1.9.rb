@@ -15,12 +15,13 @@ class Subversion19 < Formula
   deprecated_option "java" => "with-java"
   deprecated_option "perl" => "with-perl"
   deprecated_option "ruby" => "with-ruby"
+  deprecated_option "with-gpg-agent" => "with-gnupg"
   deprecated_option "unicode-path" => "with-unicode-path"
 
   option "with-java", "Build Java bindings"
   option "without-ruby", "Build without Ruby bindings"
   option "without-perl", "Build without Perl bindings"
-  option "with-gpg-agent", "Build with support for GPG Agent"
+  option "with-gnupg", "Build with support for GPG Agent"
   option "with-unicode-path", "Build with support for OS X UTF-8-MAC filename"
 
   depends_on "pkg-config" => :build
