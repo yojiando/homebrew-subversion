@@ -1,15 +1,15 @@
 class Subversion110 < Formula
   desc "Version control system designed to be a better CVS"
   homepage "https://subversion.apache.org/"
-  url "https://www.apache.org/dyn/closer.cgi?path=subversion/subversion-1.10.0.tar.bz2"
-  mirror "https://archive.apache.org/dist/subversion/subversion-1.10.0.tar.bz2"
-  sha256 "2cf23f3abb837dea0585a6b0ebd70e80e01f95bddef7c1aa097c18e3eaa6b584"
-  revision 1
+  url "https://www.apache.org/dyn/closer.cgi?path=subversion/subversion-1.10.2.tar.bz2"
+  mirror "https://archive.apache.org/dist/subversion/subversion-1.10.2.tar.bz2"
+  sha256 "5b35e3a858d948de9e8892bf494893c9f7886782f6abbe166c0487c19cf6ed88"
 
   bottle do
-    sha256 "a4aa81823aa3ffb2fbaf7ba03785f93565ee5792120fee4ef95dd8287dc4f2fb" => :high_sierra
-    sha256 "687e1f06a9e0e453688d27b9917b5d5c4dd97489a73e52061f2ca96bdde572b9" => :sierra
-    sha256 "4cdc03195ef1c722c31abe8d5cbf988df2d929560062947fc337b4c8c3c13c36" => :el_capitan
+    sha256 "2115c4455e243a34fe537da1f901779d1fd2668937e2da48ccb5f7bad484249f" => :mojave
+    sha256 "b40f591a44176f1e7f7f1c0aaebe8772657687b13e672286f3ab45b69f22db0b" => :high_sierra
+    sha256 "274b5e82027f90b8d707c859cf143808672b55e243b4070c4d18f0f6e914d6f3" => :sierra
+    sha256 "c5fee4ce6dae3f2c7398dd01a5c6df56f0227ec2323b4be107a2d26196339b6c" => :el_capitan
   end
 
   deprecated_option "java" => "with-java"
